@@ -1,6 +1,6 @@
 # 🎓 Portfolio Numérique - Garice MOPIN
 
-![Statut](https://img.shields.io/badge/Status-En_Développement-blue)
+![Statut](https://img.shields.io/badge/Status-Terminé-green)
 ![Langage](https://img.shields.io/badge/HTML5-CSS3-orange)
 ![Framework](https://img.shields.io/badge/Tailwind_CSS-3.4-38bdf8)
 
