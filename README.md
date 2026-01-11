@@ -1,9 +1,18 @@
 # 🎓 Portfolio Numérique - Garice MOPIN
 
-![Statut](https://img.shields.io/badge/Status-Terminé-green)
-![Langage](https://img.shields.io/badge/HTML5-CSS3-orange)
-![Framework](https://img.shields.io/badge/Tailwind_CSS-3.4-38bdf8)
+<div align="center">
+  
+  ## 🌐 [VISITER LE PORTFOLIO EN LIGNE](https://g4rice.github.io/SAE_Portefolio/) 🌐
+  
+  **Lien direct :** https://g4rice.github.io/SAE_Portefolio/
 
+  <br>
+
+  ![Statut](https://img.shields.io/badge/Status-Terminé-green)
+  ![Langage](https://img.shields.io/badge/HTML5-CSS3-orange)
+  ![Framework](https://img.shields.io/badge/Tailwind_CSS-3.4-38bdf8)
+
+</div>
 Ce dépôt contient le code source de mon portfolio numérique développé dans le cadre de mon alternance en **BUT Réseaux et Télécommunications** (Spécialité Cybersécurité).
 
 Il retrace mon parcours en tant qu'**Apprenti Pilote d'Exploitation** au sein du service **DIGIT** d'**EDF (CNPE de Paluel)**.
@@ -51,7 +60,7 @@ Ce projet ne nécessite aucune installation complexe (pas de Node.js, pas de NPM
 
 1.  **Cloner le dépôt :**
     ```bash
-    git clone [https://github.com/ton-nom-utilisateur/nom-du-repo.git](https://github.com/ton-nom-utilisateur/nom-du-repo.git)
+    git clone [https://github.com/g4rice/SAE_Portefolio.git](https://github.com/g4rice/SAE_Portefolio.git)
     ```
 2.  **Ouvrir le projet :**
     Allez dans le dossier et double-cliquez simplement sur le fichier `index.html` pour l'ouvrir dans votre navigateur web préféré.
