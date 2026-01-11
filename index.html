@@ -113,12 +113,12 @@
 <body class="text-gray-800">
 
     <header class="sticky top-0 bg-white/80 backdrop-blur-md shadow-md z-10 border-b border-gray-200/50">
-        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+        <div class="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0">
             <h1 class="text-2xl font-bold text-gray-800">
                 <span class="text-blue-600">Garice</span> Portfolio
             </h1>
             <nav>
-                <ul class="flex space-x-2 md:space-x-4 font-medium text-sm">
+                <ul class="flex flex-wrap justify-center gap-2 md:space-x-4 font-medium text-sm">
                     <li><a class="nav-link active" data-section="accueil">ACCUEIL</a></li>
                     <li><a class="nav-link" data-section="entreprise">RÔLE & ENTREPRISE</a></li>
                     <li><a class="nav-link" data-section="missions">MISSIONS</a></li>
@@ -163,16 +163,16 @@
                 </div>
             </div>
             <section class="w-full py-10 fade-in-up">
-                <div class="container mx-auto px-4 flex justify-center items-center gap-12">
+                <div class="container mx-auto px-4 flex justify-center items-center gap-6 md:gap-12">
                     
                     <a href="https://www.edf.fr/" target="_blank" rel="noopener noreferrer" title="Visiter le site EDF">
-                        <img src="image/edf.png" alt="Logo EDF" class="h-24 w-auto object-contain opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500 transform hover:scale-105" />
+                        <img src="image/edf.png" alt="Logo EDF" class="h-16 md:h-24 w-auto object-contain opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500 transform hover:scale-105" />
                     </a>
 
                     <div class="h-12 w-px bg-slate-400 opacity-40"></div>
 
                     <a href="https://www.unicaen.fr/" target="_blank" rel="noopener noreferrer" title="Visiter le site Unicaen">
-                        <img src="image/universite.png" alt="Logo Université Caen" class="h-32 w-auto object-contain opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500 transform hover:scale-105" />
+                        <img src="image/universite.png" alt="Logo Université Caen" class="h-24 md:h-32 w-auto object-contain opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500 transform hover:scale-105" />
                     </a>
 
                 </div>
@@ -181,7 +181,7 @@
 
         <section id="entreprise" class="section-content">
             <div class="max-w-6xl mx-auto">
-                <h2 class="text-3xl font-bold text-center mb-10 text-blue-700">Mon Rôle & Contexte Professionnel</h2>
+                <h2 class="text-2xl md:text-3xl font-bold text-center mb-10 text-blue-700">Mon Rôle & Contexte Professionnel</h2>
 
                 <div class="card border-l-4 border-blue-500 bg-white shadow-md mb-16">
                     <div class="flex items-center mb-6">
@@ -190,7 +190,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                             </svg>
                         </div>
-                        <h3 class="text-2xl font-bold text-gray-800">Mon Rôle : Apprenti Pilote d'Exploitation</h3>
+                        <h3 class="text-xl md:text-2xl font-bold text-gray-800">Mon Rôle : Apprenti Pilote d'Exploitation</h3>
                     </div>
                     <p class="text-gray-800 text-lg mb-8 leading-relaxed px-2 text-justify">
                         En tant qu'<strong>Apprenti Pilote d'Exploitation</strong> sur le site de Paluel, ma mission principale est de garantir la disponibilité des <strong>infrastructures télécoms, informatiques et des dispositifs de crise</strong>. J'interviens directement sur le <strong>maintien en condition opérationnelle</strong> des équipements. En parallèle, je contribue à l'évolution du service via le <strong>déploiement de nouveaux projets</strong> et une gestion rigoureuse de la documentation technique.
@@ -227,7 +227,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                             </svg>
                         </div>
-                        <h3 class="text-2xl font-bold text-gray-800">Présentation du Groupe EDF</h3>
+                        <h3 class="text-xl md:text-2xl font-bold text-gray-800">Présentation du Groupe EDF</h3>
                     </div>
                     <div class="text-gray-800 leading-relaxed text-justify space-y-4 px-2">
                         <p><strong>Électricité de France (EDF)</strong> est le leader mondial des énergies bas carbone et le pilier du paysage énergétique français. Groupe intégré, il intervient sur l’ensemble de la chaîne de valeur : production, transport, distribution, négoce et vente.</p>
@@ -257,7 +257,7 @@
                             </svg>
                         </div>
                         <div>
-                            <h3 class="text-2xl font-bold text-gray-800">La Direction DIGIT</h3>
+                            <h3 class="text-xl md:text-2xl font-bold text-gray-800">La Direction DIGIT</h3>
                             <p class="text-sm text-blue-600 font-medium">Mon service d'accueil</p>
                         </div>
                     </div>
@@ -288,6 +288,7 @@
                         <p class="text-xs text-center text-blue-600/70 italic font-medium">Organisation DTEO / DIGIT</p>
                     </div>
                 </div>
+
                 <div class="card border-l-4 border-blue-500 bg-white shadow-md mb-16">
                     <div class="flex items-center mb-6">
                         <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 mr-4 shrink-0 shadow-sm">
@@ -296,7 +297,7 @@
                             </svg>
                         </div>
                         <div>
-                            <h3 class="text-2xl font-bold text-gray-800">L'Équipe Locale DIGIT à Paluel</h3>
+                            <h3 class="text-xl md:text-2xl font-bold text-gray-800">L'Équipe Locale DIGIT à Paluel</h3>
                             <p class="text-sm text-blue-600 font-medium">Mon environnement de proximité</p>
                         </div>
                     </div>
@@ -334,14 +335,14 @@
 
         <section id="missions" class="section-content">
             <div class="max-w-6xl mx-auto">
-                <h2 class="text-3xl font-bold text-center mb-8 text-blue-800">Mes Missions Significatives</h2>
+                <h2 class="text-2xl md:text-3xl font-bold text-center mb-8 text-blue-800">Mes Missions Significatives</h2>
 
                 <div class="card bg-white border-l-4 border-blue-600 hover:shadow-xl transition-all duration-300 flex flex-col md:flex-row items-center justify-between gap-6 mb-12 p-6">
                     <div class="flex-1">
-                        <h3 class="text-2xl font-bold mb-3 flex items-center text-blue-800">
+                        <h3 class="text-xl md:text-2xl font-bold mb-3 flex items-center text-blue-800">
                             <span class="text-3xl mr-3 animate-spin-slow"></span> AVANT DE COMMENCER...
                         </h3>
-                        <h3 class="text-2xl font-bold mb-3 flex items-center text-blue-800">
+                        <h3 class="text-xl md:text-2xl font-bold mb-3 flex items-center text-blue-800">
                             <span class="text-3xl mr-3 animate-spin-slow"></span>Comprendre le Contexte Nucléaire :
                         </h3>
                         <p class="text-gray-700 text-justify leading-relaxed">
@@ -417,7 +418,7 @@
                 </button>
 
                 <div class="card bg-white border-t-8 border-blue-600 p-8">
-                    <h2 class="text-3xl font-extrabold text-center text-gray-800 mb-8">Comment fonctionne une Centrale Nucléaire ?</h2>
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-center text-gray-800 mb-8">Comment fonctionne une Centrale Nucléaire ?</h2>
 
                     <div class="mb-8 bg-blue-50 p-6 rounded-xl border border-blue-100 flex flex-col md:flex-row gap-8 items-center">
                 
@@ -545,7 +546,7 @@
 
                 <div class="space-y-8">
                     <div class="card border-l-8 border-blue-500 bg-white">
-                        <h2 class="text-3xl font-extrabold text-gray-800">Mise en réseau de CPO en Zone Contrôlée</h2>
+                        <h2 class="text-2xl md:text-3xl font-extrabold text-gray-800">Mise en réseau de CPO en Zone Contrôlée</h2>
                         <p class="text-blue-600 font-medium mt-1">Période : Septembre 2024 - Décembre 2025</p>
                     </div>
 
@@ -579,7 +580,7 @@
                     </div>
 
                     <div class="card bg-white">
-                        <h3 class="text-xl font-bold text-blue-700 mb-4 flex items-center"><span class="mr-2">🔧</span> Tâches Réalisées et Évolutions</h3>
+                        <h3 class="text-xl font-bold text-blue-700 mb-4 flex items-center"><span class="mr-2">🔧</span> Tâches Réalisées et Évolution</h3>
 
                         <p class="text-gray-700 mb-4 text-justify">
                             Mon intervention était répartie entre une installation sur les <strong>Tranches 1 à 4</strong> (vestiaires) et en <strong>Tranche 0</strong> (Laverie ZC et Bâtiment KZC).
@@ -587,14 +588,13 @@
                             J'ai assuré de A à Z, de la <strong>configuration de leur IP</strong> en amont, au <strong>raccordement physique</strong> sur le terrain, <strong>qualification technique</strong> jusqu'à leur ajout sur le logiciel de supervision, indispensable avant la mise en service définitive.
                         </p>
 
-                        <h4 class="font-bold text-blue-700 mt-6 mb-3 text-sm uppercase border-t border-gray-100 pt-4">Description Chronologique des étape</h4>
+                        <h4 class="font-bold text-blue-700 mt-6 mb-3 text-sm uppercase border-t border-gray-100 pt-4">Description Chronologique des étapes (A à Z)</h4>
 
                         <ol class="list-decimal list-inside space-y-2 text-gray-700 mb-6 border-l-4 border-blue-200 pl-4 py-2 bg-blue-50/50 rounded-r">
                             <li>Réunion de cadrage avec le service SPR afin de définir les besoins et les contraintes.</li>
                             <li>Définition du plan d'adressage IP pour ces appareils.</li>
-                            <li>Création d'un schéma d'architecture réseau</li>
                             <li>Réception et préparation du matériel.</li>
-                            <li>Configuration manuelle des passerelles PSR232.</li>
+                            <li>Configuration manuelle des passerelles PSR232 (attribution de l'IP, du masque et de la passerelle).</li>
                             <li>Pré-qualification en local avant l'installation physique.</li>
                             <li>Installation physique en Zone Contrôlée (Laverie, KZC, Vestiaires).</li>
                             <li>Brassage et raccordement réseau sur les prises dédiées.</li>
@@ -629,7 +629,7 @@
 
                                 <div class="p-6">
                                     <div class="mb-6">
-                                        <span class="font-bold text-gray-900 block mb-1 text-sm uppercase tracking-wide"></span>
+                                        <span class="font-bold text-gray-900 block mb-1 text-sm uppercase tracking-wide">Description :</span>
                                         <p class="text-gray-700 text-justify text-sm leading-relaxed">
                                             Cette photo montre l'un des emplacements d'installation des passerelles PSR232 juste avant la sortie de la Zone Contrôlée. On y voit l'environnement (portique de sortie C2, CPO, lieu de raccordement) dans lequel j'ai dû réaliser leur installation et le raccordement.
                                         </p>
@@ -653,7 +653,7 @@
 
                                 <div class="p-6">
                                     <div class="mb-6">
-                                        <span class="font-bold text-gray-900 block mb-1 text-sm uppercase tracking-wide"></span>
+                                        <span class="font-bold text-gray-900 block mb-1 text-sm uppercase tracking-wide">Description :</span>
                                         <p class="text-gray-700 text-justify text-sm leading-relaxed">
                                             Capture d'écran de l'interface en ligne de commande (CLI) du switch d'accès. On y distingue les commandes passées pour activer les interfaces réseau et configurer le PoE (Power over Ethernet) nécessaire à l'alimentation électrique des passerelles.
                                         </p>
@@ -677,7 +677,7 @@
 
                                 <div class="p-6">
                                     <div class="mb-6">
-                                        <span class="font-bold text-gray-900 block mb-1 text-sm uppercase tracking-wide"></span>
+                                        <span class="font-bold text-gray-900 block mb-1 text-sm uppercase tracking-wide">Description :</span>
                                         <p class="text-gray-700 text-justify text-sm leading-relaxed">
                                             Vue finale de l'interface de supervision utilisée par le service SPR. Chaque carré vert représente un CPO connecté sans avoir remonté d'informations comme quoi un objet avait été contaminé, et en rouge ceux qui ont détecté une contamination.
                                         </p>
@@ -701,7 +701,7 @@
 
                                 <div class="p-6">
                                     <div class="mb-6">
-                                        <span class="font-bold text-gray-900 block mb-1 text-sm uppercase tracking-wide"></span>
+                                        <span class="font-bold text-gray-900 block mb-1 text-sm uppercase tracking-wide">Description :</span>
                                         <p class="text-gray-700 text-justify text-sm leading-relaxed">
                                             Schéma logique permettant de voir comment les CPO remontent les informations jusqu'au PC de supervision.
                                         </p>
@@ -781,9 +781,9 @@
                         </div>
                     </div>
 
-                    <div class="mt-8 flex justify-center">
+                    <div class="mt-12 flex justify-center">
                         <button class="text-blue-600 font-semibold flex items-center hover:text-blue-800 transition bg-blue-50 px-6 py-3 rounded-full shadow-sm border border-blue-200" onclick="showSection('missions')">
-                            &larr; Retour aux missions
+                            &larr; Retourner à la liste des missions
                         </button>
                     </div>
 
@@ -799,7 +799,7 @@
 
                 <div class="space-y-8">
                     <div class="card border-l-8 border-orange-500 bg-white">
-                        <h2 class="text-3xl font-extrabold text-gray-800">Remplacement d'interphone "SIPS"</h2>
+                        <h2 class="text-2xl md:text-3xl font-extrabold text-gray-800">Remplacement d'interphone "SIPS"</h2>
                         <p class="text-orange-600 font-medium mt-1">Période : Septembre 2025 - Juin 2026</p>
                     </div>
 
@@ -812,7 +812,7 @@
                             <div>
                                 <span class="inline-block bg-orange-100 text-orange-800 px-2 py-1 rounded text-xs font-bold uppercase tracking-wider mb-2">Objectifs</span>
                                 <p class="text-gray-700 leading-relaxed text-justify">
-                                    Ce projet vise à remplacer tout les terminaux de l'infrastructure SIPS par vagues successives. Il a été financé par le service FARNum (Force d'Action Rapide du Numérique) et son objectif est de déployer une solution plus performante et robuste (téléphones muraux HD2000 sans clavier) en prévision de la <strong>Visite Décennale (VD)</strong> de la centrale. Il s'agit de garantir la continuité des communications avec le <strong>PC Sécurité</strong> en cas de problème d'accès.
+                                    Ce projet vise à remplacer la totalité du système d'interphonie du site (SIPS) par vagues successives. Il a été financé par le service FARNum (Force d'Action Rapide du Numérique) et son objectif est de déployer une solution plus performante et robuste (téléphones muraux HD2000 sans clavier) en prévision de la <strong>Visite Décennale (VD)</strong> de la centrale. Il s'agit de garantir la continuité des communications avec le <strong>PC Sécurité</strong> en cas de problème d'accès.
                                 </p>
                             </div>
 
@@ -821,11 +821,11 @@
                                 <p class="text-gray-700 leading-relaxed text-justify">
                                     L'accès aux différentes zones du site (CNPE) est régulé par des lecteurs de badges. En cas de dysfonctionnement du contrôle d'accès, des interphones permettent aux intervenants de contacter la sécurité pour un déblocage manuel.
                                     <br><br>
-                                    L'ancien système (SIPS) présentait plusieurs défauts majeurs : coûts de maintenance élevés, sensibilité aux intempéries (déclenchement d'appels intempestifs), l'équipe d'astreinte devaient intervenir les appels intempestifs pour réparer les interphones car cela monopolisait les téléphones de réceptions. Les interphones avaient une qualité audio médiocre (haut-parleur inefficace en milieu industriel bruyant). Avec l'afflux massif de prestataires attendu pour la <strong>Visite Décennale</strong>, la fiabilisation de ces équipements était indispensable pour assurer la fluidité des accès et de bonnes conditions de travail sur le site.
+                                    L'ancien système (SIPS) présentait plusieurs défauts majeurs : coûts de maintenance élevés, sensibilité aux intempéries (déclenchement d'appels intempestifs) et une qualité audio médiocre (haut-parleur inefficace en milieu industriel bruyant). Avec l'afflux massif de prestataires attendu pour la <strong>Visite Décennale</strong>, la fiabilisation de ces équipements était indispensable pour assurer la fluidité des accès et de bonnes conditions de travail sur le site.
                                     <br><br>
                                     Pour la réalisation physique de ce projet, nous avons décidé de faire prester les travaux. Après consultation de nos trois partenaires habituels, notre choix s'est porté sur l'entreprise <strong>Valliance</strong>.
                                     <br>
-                                    Mon rôle a consisté à assurer la <strong>supervision du chantier ainsi que le préparer</strong> : j'étais l'interlocuteur principal entre le chef de projet qui lui n'était pas sur site mais à Lille et l'équipe prestataire pour guider les techniciens, valider l'avancement et vérifier la conformité des installations toujours avec l'aide de mes collègues quand j'en avais besoin. J'ai participé à la préparation du chantier, on avait besoin de recenser tout les interphones et relever leur nom, localisation ainsi que s'il manquait des repères fonctionnels. Cette partie a été longue vu l'immensité de la centrale et le nombre d'interphones. J'ai pour missions à la fin du projet de refaire un plan à jour de ce système.
+                                    Mon rôle a consisté à assurer la <strong>supervision du chantier ainsi que le préparer</strong> : j'étais l'interlocuteur principal entre le chef de projet qui lui n'était pas sur site mais à Lille et l'équipe prestataire pour guider les techniciens, valider l'avancement et vérifier la conformité des installations toujours avec l'aide de mes collègue quand j'en avais besoin. J'ai participé à la préparation du chantier, on avait besoin de recenser tout les interphones et relever leur nom, localisation ainsi que s'il manquait des repères fonctionnels. Cette partie a été longue vu l'immensité de la centrale et le nombre d'interphones. J'ai pour missions à la fin du projet de refaire un plan à jour de ce système.
                                 </p>
                             </div>
 
@@ -844,20 +844,19 @@
                         <h3 class="text-xl font-bold text-orange-700 mb-4 flex items-center"><span class="mr-2">🔧</span> Tâches Réalisées et Évolutions</h3>
 
                         <p class="text-gray-700 mb-4 text-justify">
-                            Mon intervention c'est concentrée sur le <strong>pilotage et la préparation</strong> du chantier en collaboration avec le chef de projet, notamment via la planification de nombreuses réunions sur Teams.
+                            Mon intervention s'est concentrée sur le <strong>pilotage et la préparation</strong> du chantier en collaboration avec le chef de projet, notamment via la planification de nombreuses réunions sur Teams.
                             <br><br>
-                            La phase opérationnelle (dépose des anciens équipements, remplacement par des téléphones, pose de coffrets en extérieur) a été déléguée à l'entreprise partenaire <strong>Valliance</strong>. Mon rôle a alors évolué vers la <strong>supervision de travaux</strong> : je me rendais régulièrement sur le terrain pour constater l'avancement et échanger avec les équipes sur leurs réussites et les problèmes rencontrés lors du projet. Je vais égalemeent réaliser un plan d'implantations de tout les interphones de la centrale pour faciliter leurs dépannages.
-
+                            La phase opérationnelle (dépose des anciens équipements, remplacement par des téléphones, pose de coffrets en extérieur) a été déléguée à l'entreprise partenaire <strong>Omexom</strong>. Mon rôle a alors évolué vers la <strong>supervision de travaux</strong> : je me rendais régulièrement sur le terrain pour constater l'avancement et échanger avec les équipes sur leurs réussites et les problèmes rencontrés lors du projet.
                         </p>
 
-                        <h4 class="font-bold text-orange-700 mt-6 mb-3 text-sm uppercase border-t border-gray-100 pt-4">Description Chronologique des étapes</h4>
+                        <h4 class="font-bold text-orange-700 mt-6 mb-3 text-sm uppercase border-t border-gray-100 pt-4">Description Chronologique des étapes (A à Z)</h4>
 
                         <ol class="list-decimal list-inside space-y-2 text-gray-700 mb-6 border-l-4 border-orange-200 pl-4 py-2 bg-orange-50/50 rounded-r">
                             <li>Expression du besoin du remplacement des interphones avant la Visite Décennale</li>
                             <li>Préparation du chantier en amont, repérage sur plan, relevé des noms et repères manquants.</li>
                             <li>Création du document "CSCT" afin de faire un appel d'offre et définir nos attentes pour le projet et ce qu'on attend pour la réalisation. En intérieur on attendait un interphone simplement fixé au mur tandis qu'à l'extérieur il fallait un coffret avec le téléphone dedans.</li>
                             <li>Visite Chiffrage avec les 3 entreprises sur le terrain qui ont répondu à l'appel d'offre.</li>
-                            <li>Réception du devis des entreprises, choix de l'entreprise Valliance.</li>
+                            <li>Réception du devis des entreprises, choix de l'entreprise Omexom.</li>
                             <li>L'entreprise a commandé et préparé le matériel en amont dans leur atelier.</li>
                             <li>Avant d'intervenir les techniciens préviennent le PC sécurité de leur intervention.</li>
                             <li>Dépose de l'interphone sur le terrain tout en isolant les câbles.</li>
@@ -963,7 +962,7 @@
                             <div class="border-l-4 border-orange-500 pl-4 bg-orange-50/50 p-3 rounded-r shadow-sm hover:bg-orange-50 transition-colors">
                                 <span class="font-bold text-orange-800 block mb-1 text-sm uppercase">AC22.05 | Questionner un cahier des charges R&T</span>
                                 <p class="text-sm text-gray-700 text-justify">
-                                    <strong>Justification :</strong> Rédaction du document technique (CSCT) pour l'appel d'offre, définition précise du besoin matériel et analyse des devis pour sélectionner le prestataire (Valliance).
+                                    <strong>Justification :</strong> Rédaction du document technique (CSCT) pour l'appel d'offre, définition précise du besoin matériel et analyse des devis pour sélectionner le prestataire (Omexom).
                                 </p>
                             </div>
 
@@ -1027,7 +1026,7 @@
                         </div>
                     </div>
 
-                    <div class="mt-8 flex justify-center">
+                    <div class="mt-12 flex justify-center">
                         <button class="text-orange-600 font-semibold flex items-center hover:text-orange-800 transition bg-orange-50 px-6 py-3 rounded-full shadow-sm border border-orange-200" onclick="showSection('missions')">
                             &larr; Retour aux missions
                         </button>
@@ -1181,7 +1180,7 @@
     </main>
 
     <div id="imageModal" class="fixed inset-0 z-50 hidden bg-black/90 flex justify-center items-center cursor-pointer opacity-0 transition-opacity duration-300" onclick="closeModal()">
-        <button class="absolute top-6 right-6 text-white text-5xl font-bold leading-none hover:text-gray-300 z-50">&times;</button>
+        <button class="absolute top-2 right-2 md:top-6 md:right-6 text-white text-5xl font-bold leading-none hover:text-gray-300 z-50">&times;</button>
         <img id="modalImage" src="" alt="Zoom" class="max-w-[90%] max-h-[90%] object-contain rounded-lg shadow-2xl transition-transform duration-300 scale-95" onclick="event.stopPropagation()">
     </div>
 
